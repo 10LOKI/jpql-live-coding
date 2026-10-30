@@ -1,0 +1,17 @@
+# Compilation et outils locaux
+target/
+.tools/
+*.log
+
+# Configuration de l'editeur
+.idea/
+*.iml
+
+# Guides personnels et supports du live coding
+revision-jpql/
+lancer-secours.cmd
+
+# Configuration locale sensible
+.env
+.env.*
+!.env.example
